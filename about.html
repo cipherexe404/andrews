@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+<body class="about">
+   <button onclick="toggleMenu()">&#9776;</button>
+    <div id="menu" style="display: none;">
+        <a href="index.html">Home</a>
+        <br>
+        <a href="about.html">About</a>
+        <br>
+        <a href="contact.html">Contact</a>
+    </div>
+    <h1>About Me</h1>
+    <p>My name is Awotwe Andrews Junior. I am a student of Pentecost Senior High School.(PENSEC)</p>
+    <p>I am passionate about technology and currently learning we development through self-study. I enjoy building websites, exploring programming concepts, and improving my skills every day.</p>
+    <p>My goal is to become a skilled software developer and contribute to the world of technology by creating useful and innovative digital solutions.</p>
+    <p>I believe that continuous learning and consistency are the keys to success in the tech industry.</p>
+</header>  
+<footer>
+    &copy; 2026 Cipher Portfolio. All Rights Reserved.
+</footer>  
+<script>
+    function toggleMenu() {
+        let menu = document.getElementById("menu");
+        if(menu.style.display==="none"){
+            menu.style.display="block";
+        }else{
+            menu.style.display="none";
+        }
+    }
+</script>
+</body>
+</html>

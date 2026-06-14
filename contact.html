@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <div id="menu" style="display: none;">
+        <a href="index.html">Home</a>
+        <br>
+        <a href="about.html">About</a>
+        <br>
+        <a href="contact.html">Contact</a>
+    </div> 
+<header>
+    <h1>Contact Me</h1>
+    <h3>Feel free to contact me through the following channels:</h3>    
+
+    <div class ="contact-item">
+    <a href="https://wa.me/233506967942">
+        <img src="whatsapp.jpeg" alt="WhatsApp" width="80">
+    </a>
+    <p>WhatsApp is the easiest way to connect with em. Whether you have a question, want to discuss a project, share ideas about technology, or simple network, feel free to send me a message. I enjoy learning from others and building meaningful connections within tech community.</p>
+    </div>
+
+    <div class="contact-item">    
+    <a href="mailto:awotweandrews158@gmail.com">
+        <img src="email.jpeg" alt="Email" width="80">
+    </a>
+    <p>Email is the best way to reach me for formal communication, project opportunities, and detailed discussions. I welcome messages from fellow learners, developers, and anyone interested in connecting or collaborating.</p>
+    </div>
+
+    <div class="contact-item">
+    <a href="tel:0506967942">
+        <img src="phone.jpeg" alt="Phone" width="80">
+    </a>
+    <p>You can reach me directly by phone for quick communication and important discussion. Whether you have a question, an opportunity, or simply want to connect, I would be happy to hear from you.</p>
+    </div>
+</header>    
+
+<footer>
+    <p>&copy; 2026 Cipher Portfolio. All Rights Reserved.</p>
+</footer>
+
+<script>
+    function toggleMenu() {
+        let menu = document.getElementById("menu");
+        if(menu.style.display==="none"){
+            menu.style.display="block";
+        }else{
+            menu.style.display="none";
+        }
+    }
+</script>
+</body>
+</html>
